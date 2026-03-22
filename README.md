@@ -3,6 +3,10 @@
 ## Project Overview
 IscTorrent is a peer-to-peer (P2P) file-sharing application developed for the **Concurrent and Distributed Programming** (PCD) course at Iscte (3rd Year, BSc in Computer Engineering). The system enables decentralized file distribution by splitting binary data into 10KB blocks, allowing simultaneous downloads from multiple peers to optimize network performance and resilience.
 
+
+![iscTorrentv2](https://github.com/user-attachments/assets/e0fed250-823f-4810-ad11-ce88087a018e)
+
+
 ## Technical Features
 * **Multi-threaded Architecture**: Each node acts as both client and server, managing concurrent requests using a `ThreadPoolExecutor` and dedicated `NodeHandler` threads.
 * **Block-based Transfer**: Files are divided into 10KB segments (defined in `FileBlockRequestMessage`), allowing for parallel block requests and assembly.
